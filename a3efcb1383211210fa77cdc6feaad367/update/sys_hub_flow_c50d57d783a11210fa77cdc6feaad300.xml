@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Converts Country Data to Records</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_or_update_country_records</internal_name>
+        <label_cache>[{"name":"c952c59c-7f62-422c-b5b3-5f26d3c1e467.data.root_array","label":"1 - GET All Countries➛Data➛root_array","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","usedInstances":{"3a7e41d6-4b68-4d51-ae00-42b52c31816b":["items"]},"attributes":{}},{"name":"3a7e41d6-4b68-4d51-ae00-42b52c31816b.item.cca2","label":"2 - For Each➛root_array_object➛cca2","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"924b976b-cbfc-4eec-8f5f-e3b8d667bce7":["country_code"]},"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Create or Update Country Records</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:38:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c50d57d783a11210fa77cdc6feaad300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create or Update Country Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Countires API" source="x_1108103_country">a3efcb1383211210fa77cdc6feaad367</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Countires API">a3efcb1383211210fa77cdc6feaad367</sys_scope>
+        <sys_update_name>sys_hub_flow_c50d57d783a11210fa77cdc6feaad300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:40:40</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c50d57d783a11210fa77cdc6feaad300^sys_idNOT IN8d0d57d783a11210fa77cdc6feaad302"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c50d57d783a11210fa77cdc6feaad300</id>
+        <name>Create or Update Country Records</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:38:55</sys_created_on>
+        <sys_id>8d0d57d783a11210fa77cdc6feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:38:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8d0d57d783a11210fa77cdc6feaad302"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c50d57d783a11210fa77cdc6feaad300^sys_idNOT INf66dd71f83a11210fa77cdc6feaad3d8"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Update Country Records">c50d57d783a11210fa77cdc6feaad300</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:40:40</sys_created_on>
+        <sys_id>f66dd71f83a11210fa77cdc6feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:40:40</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/3VSS0vDQBD+K7LnGjZtfeUmSMGDClV6EQmT3Um7MNldN5vWWPzvTh6t4iPkkvlmvhd53guCAklkYokeIYqJMDZisEBPrUeer8lozHUTIBpnGa/AaogutCKLocGJcEFjEFkq5URsgRp8bOtbzae8bKHqSMKBvMd5kF5dyFOZ8nsiZSbPMpkyqjaGdEArsueXifAQ+Dp23PsfUGRv+cH5zZc308mm6qyc66u5mk35kXJ6OU+L81mRTvUMsJjx3q/QP33Gf8J/z4pvEa1GliyBavyjmYCgHyy1x40NlzsUU8Fbbd5xpApYIodTOIBq44zCB9+L9pMIBR1AR01l7wfD/K2xhIbiamyWJ03NnjkJm+vkRu3yceN2y4PQwtg+yQiSU0DHL4gxmKKJWHfVI2HFRHkF3hu7zn1wW9Mfs5cq6TtKSnI7Fq3N2iagOuMJdwHJguc3/XgFwXQp7piGjz/61Plr0+kOOUbH+RCaF7SpPUG7MEjj/1SrYHy8ZoEtjnY/Xj4BWe/4u8YCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c50d57d783a11210fa77cdc6feaad300^sys_idNOT IN326dd71f83a11210fa77cdc6feaad3da,726dd71f83a11210fa77cdc6feaad3dd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="GET All Countries">75ac579b83a11210fa77cdc6feaad3fe</action_type>
+        <action_type_parent display_value="GET All Countries">b00bdb5783a11210fa77cdc6feaad3fd</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create or Update Country Records">c50d57d783a11210fa77cdc6feaad300</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:40:40</sys_created_on>
+        <sys_id>326dd71f83a11210fa77cdc6feaad3da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Countires API">a3efcb1383211210fa77cdc6feaad367</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:40:40</sys_updated_on>
+        <ui_id>c952c59c-7f62-422c-b5b3-5f26d3c1e467</ui_id>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create or Update Country Records">c50d57d783a11210fa77cdc6feaad300</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>3a7e41d6-4b68-4d51-ae00-42b52c31816b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:40:40</sys_created_on>
+        <sys_id>726dd71f83a11210fa77cdc6feaad3dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Countires API">a3efcb1383211210fa77cdc6feaad367</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:40:40</sys_updated_on>
+        <ui_id>924b976b-cbfc-4eec-8f5f-e3b8d667bce7</ui_id>
+        <values>H4sIAAAAAAAA/9VTS4vbMBD+K4vOjvErD3JbKDm1u9Aue9luxVgaJwJZdmU5mzTkv3cU25tNGtpQ2kJPRjOj+R7W97RjSrI5S6bj6RgwGad5mqRRlGZiIiViUUzzOCkyFjADJdKkg1wjPxwCtgbd+uKGx3E0i6OUi6o1zm6HL81I1dQato9XjIqV0tKiYfOn54DVYAnFoWXz3VnLbWvkGnLUtPHBM7q56xhdq+bi5UsSPdR5rbLSs4oChhuHRiKBFqAbDFgJRoKrSM7c2ZYKFkHeG719nVgp42gh87ObRn2j7bPIzxVI+gR2PbGqlMD72qnKdJUDg75Z6bY0dx1bbzEW0Go3WEyVtkEusfbcPFoPXXxaVS8fB6CFMgcZfVNXAvTrCZyzKm8dNt79Vj2QDe97z7wwwkCNJW3nJdS1Mkte22qtDhuJYBkuNR3CQlcvxKRRSxOC8GpC8gfCBdXfHcqPYJWX9oHW0OWgBzv1fH8wiH9tPcVOci+Od/7QQCOsqt0tgayx17EPhved//RFwPHnFwq1bN687eMzlfi5patyt0thilksJ6Msn8xGmRzHI8AoGmWEk4g0nsWTPFQOy1AISPb7L6ICjY1A3q3v9rzd/GNQ/hnub6YOS2Lr8KbjG1zt87BgMRh9bvyQuB6Ar3uAPnXxn0rdZBxFfzt4HZv/JHd1g9bxbvoId4zj6Q/5VSRP03spnM/fAVJy06Z+BgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c50d57d783a11210fa77cdc6feaad300^sys_idNOT INb26dd71f83a11210fa77cdc6feaad3dc"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">366dd71f83a11210fa77cdc6feaad3db</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create or Update Country Records">c50d57d783a11210fa77cdc6feaad300</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:40:40</sys_created_on>
+        <sys_id>b26dd71f83a11210fa77cdc6feaad3dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Countires API">a3efcb1383211210fa77cdc6feaad367</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:40:40</sys_updated_on>
+        <ui_id>3a7e41d6-4b68-4d51-ae00-42b52c31816b</ui_id>
+        <values>H4sIAAAAAAAA/6VTS4+bMBD+Lz4niEfCltxWqlbaQ7vSdrWXaoUGe0isGtu1TbIU8d87DpBWe6rUE8w34+8xmJGZPtg++Bdz7708anb4/rZhUkeM3kcmBTuwrBJtlaUVL/KyyNM0/7TLmrJoslwUgKJkG6ahQ5qUATtP5RlUH+tx5NU+5/uKb+/aMt/u8pxvm31TbPdtXoqCZ7gr7xIBARJnTKjBORimiSiE9FbB8Pr/TPwklXC4hLPgyGtAxw7jh1YYLNYKGlQk+IzcOBHD/OsO1pOPyxI+7CSyU+luvPSILvJ0w/A9oBZIQi0ojxvWgaYoxg3sEFxPgEMQT1oNt4mT1IHoWJx99/IXcWdpGgdbpEQc5yY/GcnxyQZp9IwEaNTaNKrv9NfZZ9w5ttCrsO6ckN5jLdBGc1Fu0W6/nczleRV6kPoaZGkqw0HdKgjByaYP6OO+UWFHRHUH1kp9rK0zZ3k9TF665KioSFplLiQa72MCPBqfP+sD4Z+v8Cs4GVN8IRo6PF1T1z/7qDvnWBzXc2ga8NxJG+6J7oyLuektXtSZyc83QCCXngRfIva4/gaxMdDXlPxv6GLcj2j1Dzb9BsqKVOFQAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c50d57d783a11210fa77cdc6feaad300"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c50d57d783a11210fa77cdc6feaad300"/>
+</record_update>
